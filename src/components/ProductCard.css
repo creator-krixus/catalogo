@@ -357,6 +357,8 @@
     gap: 5px;
     overflow-x: auto;
     padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
   }
 
   .thumb {

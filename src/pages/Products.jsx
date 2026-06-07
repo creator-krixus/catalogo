@@ -1,12 +1,3 @@
-// import ProductCard from '../components/ProductCard'
-
-// export default function Products() {
-//   return (
-//     <div>
-//       <ProductCard />
-//     </div>
-//   )
-// }
 import ProductCard from '../components/ProductCard'
 
 export default function Products() {
@@ -15,7 +6,7 @@ export default function Products() {
   const products = [
     {
       title: 'Body Beige',
-      category: 'Body',
+      category: 'Body talla única – Comodidad y Estilo en una sola prenda',
       rating: 4.8,
       reviews: 128,
       oldPrice: 64000,
@@ -30,7 +21,7 @@ export default function Products() {
     },
     {
       title: 'Body cafe',
-      category: 'Body',
+      category: 'Body talla única – Comodidad y Estilo en una sola prenda',
       rating: 4.9,
       reviews: 108,
       oldPrice: 64000,

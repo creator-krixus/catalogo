@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-
+import './App.css'
 import Navbar from './components/Navbar'
 import WhatsAppButton from './components/WhatsAppButton'
 
@@ -10,15 +10,19 @@ import About from './pages/About'
 export default function App() {
   return (
     <>
-      <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Products />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+      <div className='main'>
+        <Navbar />
 
-      {/* <WhatsAppButton /> */}
+        <Routes>
+          <Route path="/" element={<Products />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+
+        {/* <WhatsAppButton /> */}
+      </div>
+
 
     </>
   )

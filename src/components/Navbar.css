@@ -1,4 +1,5 @@
 .navbar {
+  max-width: 550px;
   height: 70px;
   background: white;
   display: flex;
@@ -9,9 +10,6 @@
 }
 
 .navbar__badge {
-  position: absolute;
-  top: 10px;
-  left: 10px;
   z-index: 5;
 
   background: linear-gradient(135deg,

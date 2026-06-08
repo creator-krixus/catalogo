@@ -27,6 +27,11 @@ export default function ProductCard({ product }) {
     )
   }
 
+  const phone = '573136811673'
+  const message = 'Hola, quiero más información.'
+
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
+
   return (
     <div className="product-card">
 
@@ -154,7 +159,7 @@ export default function ProductCard({ product }) {
         </div>
 
         <a
-          href="https://wa.me/573001234567"
+          href={url}
           target="_blank"
           rel="noreferrer"
           className="whatsapp-button"

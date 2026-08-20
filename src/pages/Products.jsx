@@ -67,7 +67,7 @@ export default function Products() {
       ]
     },
     {
-      title: 'Alma manga larga',
+      title: 'Alma Manga Larga',
       category: 'Body talla única – Comodidad y Estilo en una sola prenda',
       rating: 4.5,
       reviews: 178,
@@ -127,7 +127,7 @@ export default function Products() {
       ]
     },
     {
-      title: 'Blusa atenea',
+      title: 'Blusa Atenea',
       category: 'Talla única – Comodidad y Estilo',
       rating: 4.6,
       reviews: 98,
@@ -139,7 +139,7 @@ export default function Products() {
       ]
     },
     {
-      title: 'Paris manga larga',
+      title: 'Paris Manga Larga',
       category: 'Body talla única – Comodidad y Estilo',
       rating: 4.1,
       reviews: 89,

@@ -98,7 +98,7 @@ export default function ProductCard({ product }) {
         </span>
 
         <div className="rating">
-          <Star fill="#ffb400" size={18} />
+          <Star fill="#e9a60b" size={16} />
           <span>{product.rating}</span>
           <span>|</span>
           <span>{product.reviews} reseñas</span>

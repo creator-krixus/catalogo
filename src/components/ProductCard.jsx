@@ -37,10 +37,6 @@ export default function ProductCard({ product }) {
 
       <div className="product-card__gallery">
 
-        {/* <span className="product-card__badge">
-          ✨ Fashion
-        </span> */}
-
         <button
           className="product-card__favorite"
           onClick={() => setFavorite(!favorite)}
@@ -51,10 +47,10 @@ export default function ProductCard({ product }) {
           />
         </button>
 
-        <div className="product-card__discount">
+        {/* <div className="product-card__discount">
           <span>{product.discount}%</span>
           <small>OFF</small>
-        </div>
+        </div> */}
 
         <img
           src={product.images[currentImage]}
@@ -76,9 +72,6 @@ export default function ProductCard({ product }) {
           <ChevronRight />
         </button>
 
-        {/* <div className="gallery-counter">
-          {currentImage + 1} / {product.images.length}
-        </div> */}
       </div>
 
       <div className="product-card__thumbs">
